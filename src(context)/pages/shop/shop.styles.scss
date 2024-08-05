@@ -1,0 +1,21 @@
+div.category-container{
+    div.category-type{
+        height: 50vh;
+        margin-bottom: 4rem;
+        h2{
+            font-weight: 400;
+            font-size: 27px;
+        }
+
+        div.category-list{
+            height: 90%;
+            div.category-card{
+                padding: 0px 15px;
+                div.category-img{
+                    border: 1px solid #c2c2c2;
+                    img{object-fit: cover;}
+                }
+            }
+        }
+    }
+}

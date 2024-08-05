@@ -1,0 +1,26 @@
+div.header{
+    // box-shadow: 0px 0px 15px 0px #00000021;
+    div.logo{
+        img{
+            height: 55px;
+        }
+    }
+
+    div.links-container{
+        a.nav-link{
+            font-size: 15px;
+        }
+        div.add-to-cart{
+            cursor: pointer;
+            img{height: 30px;}
+
+            div.counter{
+                top: 50%;
+                left: 83%;
+                transform: translate(-50%, -50%);
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+    }
+}

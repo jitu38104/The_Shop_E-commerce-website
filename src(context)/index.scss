@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+
+  &::-webkit-scrollbar { width: 5px; }
+  &::-webkit-scrollbar-track { background: #f1f1f1; }
+  &::-webkit-scrollbar-thumb { background: #888; }
+  &::-webkit-scrollbar-thumb:hover { background: #555; }
+}
+

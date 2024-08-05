@@ -1,0 +1,38 @@
+div.cart-box{
+    border: 1px solid;
+    position: absolute;
+    right: 2%;
+    top: 90%;
+    background-color: white;
+    width: 20%;
+    height: 55vh;
+    overflow: hidden;
+
+    div.items{
+        height: 85%;
+        overflow: auto;
+        div.item-container{
+            height: 30%;
+            div.item-img{
+                width: 40%;
+                img{}
+            }
+
+            div.item-data{
+                width: 60%;
+                p.name{}
+                p.price{}
+            }
+        }
+    }
+    
+    
+    div.bttn{
+        width: 15%;
+        
+        button{
+            border-radius: 0;
+            padding: 10px 0px;
+        }
+    }
+}

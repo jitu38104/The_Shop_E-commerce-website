@@ -1,0 +1,54 @@
+div.login-container{
+    div.signin-container,
+    div.register-container{
+        width: 35%;
+        div.heading-box {
+            margin-bottom: 3rem;
+            h4 {
+                font-size: 25px;
+                font-weight: 400;
+                margin-bottom: 5px;
+                letter-spacing: -1px;
+            }
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+
+        div.form-box {
+            div.input-field {
+                margin-bottom: 2rem;
+
+                input {
+                    border: 0;
+                    width: 100%;
+                    outline: none;
+                    padding-left: 5px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid black;
+                }
+                p {
+                    display: none;
+                    font-size: 12px;
+                    letter-spacing: 0.35px;
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                    color: red;
+                }
+            }
+
+            div.button-container{
+                button{
+                    border-radius: 0;
+                    font-size: 13px;
+                    width: 48.5%;
+                }
+            }
+        }
+    }
+
+    div.register-container{
+    }
+}

@@ -1,0 +1,37 @@
+div.product-container{
+    border: 1px solid #c2c2c2;
+    &:hover{
+        div.add-to-cart{visibility: visible;}
+    }
+
+    div.prod-img{
+        height: 90%;
+        img{
+            object-fit: cover;
+        }
+    }
+
+    div.add-to-cart{
+        visibility: hidden;
+        cursor: pointer;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ebebebba;
+        padding: 10px 30px;
+        font-size: 17.5px;
+        font-weight: 500;
+        letter-spacing: -0.35px;
+        color: #323232;
+        user-select: none;
+
+        &:active{color: #b4b4b4;}
+    }
+
+    div.prod-detail{
+        height: 10%;
+
+        div.prod-name{}
+        div.prod-price{}
+    }
+}

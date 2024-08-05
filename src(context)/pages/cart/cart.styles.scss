@@ -1,0 +1,54 @@
+div.cart-container{
+    div.cart-table{
+        div.table-container{
+            table{
+                thead{
+                    border-bottom: 1px solid black;
+                    th{
+                        font-size: 17px;
+                        font-weight: 300;
+                        letter-spacing: -0.35px;
+                        padding-bottom: 1rem;
+
+                        &:first-child{padding-left: 1rem;}
+                        &:nth-child(3),&:nth-child(4){text-align: center;}
+                        &:nth-child(5){text-align: end;padding-right: 0.75rem;}
+                    }
+                }
+
+                tbody{
+                    tr{
+                        td{
+                            div.prod-img{
+                                height: 12.5rem;
+                                width: 10rem;
+                                padding: 10px 0;
+                                img{object-fit: cover;}
+                            }
+                            i{
+                                cursor: pointer;
+                                &:active{color: #b4b4b4;}
+                            }
+
+                            font-size: 18px;
+                            font-weight: 400;
+                            letter-spacing: -0.25px;
+                            border-bottom: 0.5px solid black;
+
+                            &:first-child{width: 30%; padding-left: 0.5rem;}
+                            &:not(:first-child){width: 17.5%;}
+                            &:nth-child(3),&:nth-child(4){text-align: center;}
+                            &:nth-child(5){text-align: end;padding-right: 1.25rem;}
+                        }
+                    }
+                }
+            }
+        }
+
+        div.total-price{
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: -0.25px;
+        }
+    }
+}

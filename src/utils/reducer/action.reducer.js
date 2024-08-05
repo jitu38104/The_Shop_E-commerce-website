@@ -1,0 +1,1 @@
+export const setReducerAction = (type, payload) => ({type, payload}); 
